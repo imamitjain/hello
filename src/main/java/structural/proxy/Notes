@@ -1,0 +1,6 @@
+Proxy pattern is applicable in following type of scenarios.
+
+1. Remote proxy: It is used to send real object across the different address space.
+2. On demand proxy: Do not load image until require.
+3. Protection proxy: Put authorization logic in proxy to restrict object access.
+4. Smart Reference proxy: Smart pointer.

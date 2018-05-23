@@ -1,0 +1,10 @@
+Command pattern enables invoker delegate the request to the application via command. Here, invoker does not know about
+application and specific concrete command. Invoker only provides hook for command interface such that application
+specific logic can be executed on invoker request.
+
+Client creates invoker by initialising it by appropriate concrete command and concrete command by application.
+
+Situations
+- This pattern can be used when request does not know about receiver and action to be taken.
+- Helpful in building undoable system by storing execution steps.
+- Building crash recoverable system because system stores execution steps.
